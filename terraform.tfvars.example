@@ -1,0 +1,8 @@
+aws_region    = "us-east-1"
+project_name  = "nginx-ec2"
+instance_type = "t3.micro"
+
+# Set these as Terraform Variables in HCP Terraform (app.terraform.io), not in git.
+
+# Uncomment to allow SSH from your IP (e.g. "203.0.113.10/32")
+# allowed_ssh_cidr = ["203.0.113.10/32"]
