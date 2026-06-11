@@ -7,7 +7,7 @@ terraform {
     organization = "gojo_2819"
 
     workspaces {
-      name = "nginx-ec2"
+      name = "terraform-ai"
     }
   }
 
